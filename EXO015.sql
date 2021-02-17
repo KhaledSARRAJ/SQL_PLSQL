@@ -1,0 +1,4 @@
+SELECT * 
+FROM (SELECT * FROM EMP ORDER BY salaire desc)
+ WHERE ROWNUM < 2 ;
+ 
